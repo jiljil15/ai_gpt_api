@@ -3,7 +3,7 @@
     <div class="container" style="padding-right: 20px;padding-left: 20px;padding-top: 10px;padding-bottom: 10px;background: #3A61D0;border-color: var(--bs-gray-dark);border-radius: 8px;">
         <div class="card" style="min-height: 300px;" id="text_ai">
             @if($this->response)
-            {{dd($this->response)}}
+<!--             {{dd($this->response)}} -->
                 <p>{{ $this->response}}</p>
             @endif
         </div>
